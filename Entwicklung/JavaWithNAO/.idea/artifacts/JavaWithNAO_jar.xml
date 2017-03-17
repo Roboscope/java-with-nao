@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JavaWithNAO:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWithNAO_jar</output-path>
+    <root id="archive" name="JavaWithNAO.jar">
+      <element id="module-output" name="JavaWithNAO" />
+      <element id="extracted-dir" path="C:/IntelliJ Global Libraries/java-naoqi-sdk-2.1.4.13-win32-vs2010.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

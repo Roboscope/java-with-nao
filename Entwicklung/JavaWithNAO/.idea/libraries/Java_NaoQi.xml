@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Java NaoQi">
+    <CLASSES>
+      <root url="jar://C:/IntelliJ Global Libraries/java-naoqi-sdk-2.1.4.13-win32-vs2010.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
