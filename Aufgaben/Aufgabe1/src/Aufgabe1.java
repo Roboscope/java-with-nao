@@ -1,5 +1,3 @@
-package com.javawithnao.tasks;
-
 /**
  * Primitive Datentypen und Variablen:
  * NAO Rechnet
