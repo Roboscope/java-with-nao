@@ -1,6 +1,6 @@
 /**
  * Primitive Datentypen und Variablen:
- * NAO Rechnet
+ * Simples Rechnen
  */
 public class Aufgabe1 {
 
