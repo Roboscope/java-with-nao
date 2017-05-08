@@ -1,0 +1,24 @@
+COPY:
+Desktops aller noch angestellten Nutzer und Public Desktop
+C:\Shared\
+C:\Users\Public\Network Share\
+C:\Users\Public\RoboSync\
+C:\Users\Public\RoboSyncUpdate.bat
+C:\Users\Kursleiter\sciebo_hidden\ (evtl Sicherheitseinstellungen rückgängig machen)
+
+ON WIN10:
+Desktops einfügen, Ordner einfügen
+Computernamen zu EDULAB-XX ändern
+Hardlinks überprüfen:
+ C:\Users\Public\Desktop\ROBOSCOPE\ -> C:\Shared\
+ C:\Shared\Kurslaptop Sync\ -> C:\Users\Public\RoboSync\
+ C:\Shared\Network Share\ -> C:\Users\Public\Network Share\
+Festplatten überprüfen:
+ IfU-Laufwerk: I
+ Datenablage: P
+ Transfer-Laufwerk: X
+ UserID: Z
+Sicherheitseinstellungen überprüfen:
+ C:\Users\Kursleiter\sciebo_hidden\
+ C:\Users\Kursleiter\sciebo hidden\92348u5ijnegoi3480\
+Als Kursleiter mit PW IbdPvRoboscope! TaskSched Aufgaben importieren
