@@ -4,6 +4,8 @@
 
 public class Profile {
 
+    public int age;
+
     public String friends = "";
 
     public void addFriend(String friendsName) {
@@ -12,6 +14,10 @@ public class Profile {
         } else {
             friends = friends + ", " + friendsName;
         }
+    }
+
+    public void printAge() {
+        System.out.println(age);
     }
 
     public String getFriends() {

@@ -1,14 +1,16 @@
+@SuppressWarnings("ALL")
+
 /**
  * ???
  */
 public class Main {
 
     public static void main(String[] args) {
-        Profile miriamsProfile = new Profile();
-        miriamsProfile.addFriend("Erika");
-        miriamsProfile.addFriend("Max");
-        String miriamsFriends = miriamsProfile.getFriends();
-        System.out.println(miriamsFriends);
+        Profile adminsProfile = new Profile();
+        Profile hackersProfile = adminsProfile;
+        adminsProfile.age = 33;
+        hackersProfile.age = 12;
+        adminsProfile.printAge();
     }
 
 
