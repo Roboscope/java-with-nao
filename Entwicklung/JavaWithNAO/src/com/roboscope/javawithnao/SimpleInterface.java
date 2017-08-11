@@ -6,16 +6,17 @@ package com.roboscope.javawithnao;
  */
 public class SimpleInterface {
 
-    private NaoJay naoJay = null;
-    private NaoJoe naoJoe = null;
-    private NaoJon naoJon = null;
-    private NaoRobby naoRobby = null;
+    private NaoDrogon naoDrogon = null;
+    private NaoViserion naoViserion = null;
+    private NaoRhaegar naoRhaegar = null;
+    private NaoBalerion naoBalerion = null;
+    private NaoMeraxes naoMeraxes = null;
 
     public SimpleInterface() {
     }
 
-    public NaoJay connectToJay() {
-        this.naoJay = new NaoJay() {
+    public NaoDrogon connectToDrogon() {
+        this.naoDrogon = new NaoDrogon() {
             @Override
             public void onFaceDetected(Human human) {
 
@@ -56,11 +57,11 @@ public class SimpleInterface {
 
             }
         };
-        return this.naoJay;
+        return this.naoDrogon;
     }
 
-    public NaoJoe connectToJoe() {
-        this.naoJoe = new NaoJoe() {
+    public NaoViserion connectToViserion() {
+        this.naoViserion = new NaoViserion() {
             @Override
             public void onFaceDetected(Human human) {
 
@@ -101,11 +102,11 @@ public class SimpleInterface {
 
             }
         };
-        return this.naoJoe;
+        return this.naoViserion;
     }
 
-    public NaoJon connectToJon() {
-        this.naoJon = new NaoJon() {
+    public NaoRhaegar connectToRhaegar() {
+        this.naoRhaegar = new NaoRhaegar() {
             @Override
             public void onFaceDetected(Human human) {
 
@@ -146,11 +147,11 @@ public class SimpleInterface {
 
             }
         };
-        return this.naoJon;
+        return this.naoRhaegar;
     }
 
-    public NaoRobby connectToRobby() {
-        this.naoRobby = new NaoRobby() {
+    public NaoBalerion connectToBalerion() {
+        this.naoBalerion = new NaoBalerion() {
             @Override
             public void onFaceDetected(Human human) {
 
@@ -191,7 +192,52 @@ public class SimpleInterface {
 
             }
         };
-        return this.naoRobby;
+        return this.naoBalerion;
+    }
+
+    public NaoMeraxes connectToMeraxes() {
+        this.naoMeraxes = new NaoMeraxes() {
+            @Override
+            public void onFaceDetected(Human human) {
+
+            }
+
+            @Override
+            public void onFrontTactileTouched() {
+
+            }
+
+            @Override
+            public void onMiddleTactileTouched() {
+
+            }
+
+            @Override
+            public void onRearTactileTouched() {
+
+            }
+
+            @Override
+            public void onLeftHandTouched() {
+
+            }
+
+            @Override
+            public void onRightHandTouched() {
+
+            }
+
+            @Override
+            public void onLeftFootTouched() {
+
+            }
+
+            @Override
+            public void onRightFootTouched() {
+
+            }
+        };
+        return this.naoMeraxes;
     }
 
 }
