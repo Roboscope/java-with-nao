@@ -1,0 +1,35 @@
+NAO Labyrinth:
+
+21x   Holzpfosten 70x70x300
+2x    Holzpfosten 70x70x1270
+2x    Holzpfosten 70x70x2470
+(Laufmeter insg: 7048)
+
+63x   Dübel (8mm Durchm.) 
+2x    Holzleim
+1x    Weißer Sprühlack
+2x    Blauer Sprühlack
+
+Schnitte der Vierkanthölzer:
+2700:
+ 1x 2470er
+2700:
+ 1x 2470er
+2700:
+ 2x 1270er
+2700:
+ 9x 300er
+2700:
+ 9x 300er
+1800:
+ 3x 300er
+ 900 Sicherheit
+
+Summe:
+5x Holzpfosten: 70x70x2700, Kiefer                    8,95    https://www.bauhaus.info/zaunpfosten/kantholzpfosten-7x7x180-cm-kdi-gruen/p/20231613?q=holzpfosten
+1x Holzpfosten: 70x70x1800, Kiefer                    5,99    https://www.bauhaus.info/zaunpfosten/kantholzpfosten-kdi-gruen-7x7x270cmglatt/p/20059037?q=holzpfosten
+2x Ponal Holzleim Classic: 225g, Transparent          4,75    https://www.bauhaus.info/holzleim/ponal-classic-holzleim-225-g/p/15353288?q=holzleim
+2x Craftomat Holzdübel: 8mmx40mm 40Stk.               2,05    https://www.bauhaus.info/bohrzubehoer/duebel-8x40-/p/22378808?q=holzd%C3%BCbel
+1x Dupli-Color COLOR Lackspray RAL 9010: Matt, 400ml  4,95    https://www.bauhaus.info/buntlackspray/color-spray-ral-9010reinweiss-matt-400mlduplicolor/p/15074529?q=lackspray
+2x Dupli-Color COLOR Lackspray RAL 5003: Matt, 400ml  7,50    https://www.bauhaus.info/buntlackspray/kh-ral-5003-saphir-blau-matt-400-ml-duplicolor/p/15071694?q=lackspray
+=                                                    84,29
