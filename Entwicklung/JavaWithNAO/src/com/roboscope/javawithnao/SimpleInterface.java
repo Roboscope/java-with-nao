@@ -8,7 +8,7 @@ public class SimpleInterface {
 
     private NaoDrogon naoDrogon = null;
     private NaoViserion naoViserion = null;
-    private NaoRhaegar naoRhaegar = null;
+    private NaoRhaegal naoRhaegal = null;
     private NaoBalerion naoBalerion = null;
     private NaoMeraxes naoMeraxes = null;
 
@@ -105,8 +105,8 @@ public class SimpleInterface {
         return this.naoViserion;
     }
 
-    public NaoRhaegar connectToRhaegar() {
-        this.naoRhaegar = new NaoRhaegar() {
+    public NaoRhaegal connectToRhaegal() {
+        this.naoRhaegal = new NaoRhaegal() {
             @Override
             public void onFaceDetected(Human human) {
 
@@ -147,7 +147,7 @@ public class SimpleInterface {
 
             }
         };
-        return this.naoRhaegar;
+        return this.naoRhaegal;
     }
 
     public NaoBalerion connectToBalerion() {
