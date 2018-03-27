@@ -7,9 +7,12 @@ public class Main {
 	private static NaoRhaegal nao = naoInterface.connectToRhaegal();
 
 	public static void main(String[] args) {
-		do {
-			nao.say("Werde ich diesen Satz sagen?");
-		} while (false);
+		int[] x = new int[2];
+		x[0] = 7;
+		x[1] = 5;
+		String[] y = {"Eins", "Zwei", "Drei", "Vier"};
+		nao.say((x[0] + x[1]) + y[2] + y.length);
 	}
+
 
 }

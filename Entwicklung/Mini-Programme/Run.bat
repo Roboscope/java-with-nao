@@ -26,8 +26,16 @@ IF NOT "%num%"=="%numa%" ECHO Invalid number & GOTO ASK
 IF %numa% GEQ %n% ECHO Invalid number & GOTO ASK
 IF %numa% LSS 0 ECHO Invalid number & GOTO ASK
 CD !vector[%numa%]!
-IF EXIST Main.class DEL Main.class>nul
-%javac% -classpath "%cp%" Main.java
+DEL "*.class">nul
+SET filelist=
+FOR %%f IN ("*.java") DO (
+ IF "!filelist!"=="" (
+  SET filelist="%%f"
+ ) ELSE (
+  SET filelist=!filelist! "%%f"
+ )
+)
+%javac% -classpath "%cp%" %filelist%
 %java% -classpath "%cp%;%cd%" Main
 CD %dp%
 PAUSE>nul
